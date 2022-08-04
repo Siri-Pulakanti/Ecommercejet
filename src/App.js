@@ -105,10 +105,10 @@ const App = () => {
     <Suspense
       fallback={
         <div className="col text-center p-5 h1">
-          <span style={{ fontSize: "75px", color: "#ff0000" }}>__</span>React
-          Redux EC
+          <span style={{ fontSize: "75px", color: "#ff0000" }}>__</span>EC
           <LoadingOutlined style={{ fontSize: "75px", color: "#ff0000" }} />
-          MMERCE<span style={{ fontSize: "75px", color: "#ff0000" }}>__</span>
+          MMERCEJET
+          <span style={{ fontSize: "75px", color: "#ff0000" }}>__</span>
         </div>
       }
     >
