@@ -1,5 +1,9 @@
 {
   "name": "client",
+  "engines": {
+    "node": "<=14.x.x",
+    "npm": "<=6.x.x"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
