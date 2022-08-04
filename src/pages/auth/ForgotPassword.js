@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getAuth, sendPasswordResetEmail } from "firebase/auth";
-import { app } from "../../firebase";
+import { app } from "../../firebasey";
 import { toast } from "react-toastify";
 import { Button } from "antd";
 import { MailOutlined } from "@ant-design/icons";

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getAuth, sendSignInLinkToEmail } from "firebase/auth";
-import { app } from "../../firebase";
+import { app } from "../../firebasey";
 import { toast } from "react-toastify";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";

@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { LoadingOutlined } from "@ant-design/icons";
 
 import { currentUser } from "./functions/auth";
-import { auth } from "./firebase";
+import { auth } from "./firebasey";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { getAuth } from "firebase/auth";
